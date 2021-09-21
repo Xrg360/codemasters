@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title CodeMasters
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                     img(src="/static/logo.png")
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/services") Services]
+                li #[a(href="/clinfo") Class Info]
+                li #[a(href="/contact") Contact Us]
+        .form 
+            .h
+                H1 ____Contact Us____
+            form(action= "/contact", method= "post", class= "myForm")
+            <input type="text"class= “name” name="name" placeholder="Enter your name..">
+            <input type="phone" class= “myInput” name="phone" placeholder="Enter your phone number..">
+            <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+            <input type="text" name="firstname" placeholder="Your Problem/Suggesions..">
+            <button class="btn">Submit</button>
+        footer#footer
+            |Copyright © 2020 CodeMasters| All Rights Reserved

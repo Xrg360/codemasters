@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Girassol&family=Great+Vibes&family=Orbitron&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#navbar {
+  background-color: rgb(187 187 180);
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /* justify-content: center; */
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  height: 71px;
+  margin-top: 12px;
+  margin-right: 155px;
+  margin-left: 10px;
+}
+
+li {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.abt {
+  background: center/cover no-repeat url("/static/bg.jpg");
+  height: 700px;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+}
+#introSection {
+  background-color: rgb(114, 6, 255);
+  font-size: 70px;
+  color: white;
+  font-family: "Girassol", cursive;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background: center/cover no-repeat url("/static/bg.jpg");
+}
+
+.small {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+#mission {
+  background-color: black;
+  height: 326px;
+  width: 100%;
+  margin: auto;
+  color: white;
+  padding-bottom: 30px;
+}
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 23px 20px;
+  height: 209px;
+}
+.card h3 {
+  text-align: center;
+  margin: 0 12px;
+  margin-top: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardimg {
+  height: 131px;
+  padding: 0 14px;
+  margin: 5px 9px;
+}
+.cardimg2 img {
+  height: 100px;
+  /* width:100px; */
+  padding: 0 14px;
+  margin: 5px 9px;
+}
+
+.cardimg img {
+  height: inherit;
+}
+
+.card-content {
+  padding: 0 10px;
+}
+
+.card-content p {
+  font-size: 19px;
+}
+#mission h2 {
+  font-size: 36px;
+  font-family: "Yeon Sung";
+  text-align: center;
+  padding-top: 12px;
+}
+
+#sponsors {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 326px;
+  width: 100%;
+  margin: auto;
+}
+
+#sponsors h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#footer {
+  background-color: grey;
+  height: 30px;
+  font-family: monospace, sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+input {
+  justify-content: center;
+  display: block;
+  padding: 5px;
+  margin: 15px auto;
+  height: 30px;
+  width: 60%;
+  outline: none;
+  border: 2px solid rgb(255, 8, 0);
+  border-radius: 5px;
+}
+
+.h {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.form {
+  height: 800px;
+  background: center/cover no-repeat url("/static/bg.jpg");
+}
+
+.btn {
+  margin: 4px auto;
+  display: block;
+  padding: 5px 12px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  outline: none;
+}
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
